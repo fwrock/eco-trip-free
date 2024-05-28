@@ -1,0 +1,46 @@
+.logo {
+    width: 32px !important;
+    height: 32px !important;
+    margin-left: -4px;
+    margin-right: 8px;
+}
+.name {
+    color: #1c1e21;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-family:
+        system-ui,
+        -apple-system,
+        'Segoe UI' !important;
+    margin-left: 8px !important;
+    margin-top: -3px !important;
+    padding-right: 6px;
+    letter-spacing: 0 !important;
+}
+.menu {
+    margin-top: -4px;
+    margin-left: 10px;
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.menuItem {
+    color: #1c1e21 !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+    font-family:
+        system-ui,
+        -apple-system,
+        'Segoe UI' !important;
+    letter-spacing: 0 !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+    min-width: 10px !important;
+    &:hover {
+        color: var(--selected-color) !important;
+        background-color: var(--background-color-menu) !important;
+        box-shadow: none !important;
+    }
+}

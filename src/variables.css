@@ -1,0 +1,13 @@
+:root {
+    --selected-color: #237bff;
+    --background-color-menu: #ffffff;
+    --menu-button-height: 77px;
+    --profile-menu-button-height: 77px;
+    --svg-icon-color: #727272;
+    --text-primary: #212121;
+    --text-secondary: #727272;
+    --button: #f0f0f0;
+    --menu-item-size: 68px;
+    --menu-item-2-lines-size: 88px;
+    --base-title-size: 48px;
+}
